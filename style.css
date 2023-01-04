@@ -104,14 +104,16 @@ div .commentaire {
     }
 
 }
+
 .titreSerie {
     position: absolute;
-top: 164px;
-left: 174px;
-color: white;
-font-size: 60px;
-font-weight: 600;
+    top: 164px;
+    left: 174px;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
 }
+
 .image {
     background: url(./images/bLogopetit.png) no-repeat;
     height: 52px;
@@ -120,35 +122,40 @@ font-weight: 600;
     width: 32px;
     margin-left: 10px;
 }
+
 /* drop */
 .dropdown-menu.columns-3 {
-	min-width: 600px;
+    min-width: 600px;
 }
+
 .dropdown-menu li a {
-	padding: 5px 15px;
-	font-weight: 300;
+    padding: 5px 15px;
+    font-weight: 300;
 }
+
 .multi-column-dropdown {
-	list-style: none;
-  margin: 0px;
-  padding: 0px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
+
 .multi-column-dropdown li a {
-	display: block;
-	clear: both;
-	line-height: 1.428571429;
-	color: #fff;
-	white-space: normal;
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #fff;
+    white-space: normal;
 }
+
 .multi-column-dropdown li a:hover {
-	text-decoration: none;
-	color: #262626;
-	background-color: #999;
+    text-decoration: none;
+    color: #262626;
+    background-color: #999;
 }
- 
+
 @media (max-width: 767px) {
-	.dropdown-menu.multi-column {
-		min-width: 240px !important;
-		overflow-x: hidden;
-	}
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
 }
